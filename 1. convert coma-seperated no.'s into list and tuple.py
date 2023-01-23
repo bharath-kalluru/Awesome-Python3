@@ -7,6 +7,7 @@ Then, the output should be:
 ['34', '67', '55', '33', '12', '98']
 ('34', '67', '55', '33', '12', '98')'''
 
+#program starts here
 values=input('Enter coma-separated numbers: ')
 l=values.split(',')
 t=tuple(l)
